@@ -1,12 +1,13 @@
 Algoritmo "CALCULAR_CUSTO_LIGACAO"
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : Calcula o custo da ligacao de acordo com a tarifa para
+//               uma cidade especifica.
 // Autor(a)    : Joelcio Facanha Moreira
 // Data atual  : 15/03/2019
 Var
 
   cidade:caractere
-  minuto:inteiro
-  valor, tarifa:real
+  totalDeMinuto:inteiro
+  valorApagar, tarifa:real
 
 Inicio
 
@@ -27,11 +28,12 @@ Inicio
   se(tarifa > 0.0)entao
   
     Escreva("Duracao em Minuto: ")
-    Leia(minuto)
+    Leia(totalDeMinuto)
     
-    valor:= minuto * tarifa
+    valorApagar:= totalDeMinuto * tarifa
 
-    Escreva("Tarifa: ", tarifa:5:2, " Duracao: ", minuto, " minutos, Valor: ", valor:5:2)
+    Escreval("Cidade: ", cidade ," Tarifa: ", tarifa:5:2)
+    Escreval("Duracao: ", totalDeMinuto, " minutos, Valor a pagar R$: ", valorApagar:5:2)
     
   senao
     Escreva("Cidade nao localizada!")
