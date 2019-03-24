@@ -18,7 +18,7 @@ Inicio
   Leia(ano)
   
   Enquanto nome <> "X" Faca
-  
+
     Se(anoMaisVelho = 0)E(anoMaisNovo = 0)Entao
       // primeiro registro informado
       pessoaMaisVelha:= nome
@@ -27,11 +27,11 @@ Inicio
       anoMaisNovo:= ano
     Senao
       // a pessoa é mais velha do que a informada anteriormente
-      Se(ano > anoMaisVelho)Entao
+      Se(ano < anoMaisVelho)Entao
          pessoaMaisVelha:= nome
          anoMaisVelho:= ano
       Senao
-        Se(ano < anoMaisNovo)Entao
+        Se(ano > anoMaisNovo)Entao
           pessoaMaisNova:= nome
           anoMaisNovo:= ano
         FimSe
@@ -46,10 +46,15 @@ Inicio
     Escreval("Informe X para encerrar a aplicação")
     Escreva("Informe o nome da pessoa: ")
     Leia(nome)
-    Escreva("Informe o ano de nascimento: ")
-    Leia(ano)
+
+    Se(nome <> "X")Entao
+      Escreva("Informe o ano de nascimento: ")
+      Leia(ano)
+    FimSe
     
   FimEnquanto
+  
+  LimpaTela
   
   Escreval("Pessoa Mais Velha: ", pessoaMaisVelha, " ano de nascimento: ", anoMaisVelho)
   Escreval("Pessoa Mais Nova: ", pessoaMaisNova, " ano de nascimento: ", anoMaisNovo)
