@@ -16,13 +16,13 @@ Inicio
   Leia(idade)
   
   escolha idade
-    caso 5, 6, 7
+    caso 5 ate 7
       categoria := "Infantil A"
-    caso 8, 9, 10
+    caso 8 ate 10
       categoria := "Infantil B"
-    caso 11, 12, 13
+    caso 11 ate 13
       categoria := "Juvenil A"
-    caso 14, 15, 16, 17
+    caso 14 ate 17
       categoria := "Juvenil B"
     outrocaso
       categoria := "Adulto"
