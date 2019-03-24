@@ -15,18 +15,18 @@ Inicio
   Escreva("Informe a idade do atleta: ")
   Leia(idade)
   
-  escolha idade
-    caso 5 ate 7
+  Escolha idade
+    Caso 5 ate 7
       categoria := "Infantil A"
-    caso 8 ate 10
+    Caso 8 ate 10
       categoria := "Infantil B"
-    caso 11 ate 13
+    Caso 11 ate 13
       categoria := "Juvenil A"
-    caso 14 ate 17
+    Caso 14 ate 17
       categoria := "Juvenil B"
-    outrocaso
+    OutroCaso
       categoria := "Adulto"
-  fimescolha
+  FimEscolha
   
   Escreva("Categoria do Atleta: ", categoria)
 
