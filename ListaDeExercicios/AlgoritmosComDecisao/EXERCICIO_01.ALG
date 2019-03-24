@@ -18,8 +18,8 @@ Inicio
   
   soma := (numero1 + numero2)
   
-  se(soma > 10)entao
+  Se(soma > 10)Entao
     Escreva("Soma = ", soma)
-  fimse
+  FimSe
 
 Fimalgoritmo
