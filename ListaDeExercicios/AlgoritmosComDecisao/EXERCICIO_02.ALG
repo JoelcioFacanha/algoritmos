@@ -18,13 +18,13 @@ Inicio
   escolha codigo
   caso 1
     classificacao := "Alimento não-perecível"
-  caso 2, 3, 4
+  caso 2 ate 4
     classificacao := "Alimento perecível"
-  caso 5, 6
+  caso 5 ate 6
     classificacao := "Vestuário"
   caso 7
     classificacao := "Higiene Pessoal"
-  caso 8, 9, 10, 11, 12, 13, 14, 15
+  caso 8 ate 15
     classificacao := "Limpeza e Utensílios Domésticos"
   outrocaso
     classificacao := "Inválido"
