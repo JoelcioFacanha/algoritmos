@@ -15,20 +15,20 @@ Inicio
   Escreva("Informe o código do produto: ")
   Leia(codigo)
   
-  escolha codigo
-  caso 1
+  Escolha codigo
+  Caso 1
     classificacao := "Alimento não-perecível"
-  caso 2 ate 4
+  Caso 2 ate 4
     classificacao := "Alimento perecível"
-  caso 5 ate 6
+  Caso 5 ate 6
     classificacao := "Vestuário"
-  caso 7
+  Caso 7
     classificacao := "Higiene Pessoal"
-  caso 8 ate 15
+  Caso 8 ate 15
     classificacao := "Limpeza e Utensílios Domésticos"
-  outrocaso
+  OutroCaso
     classificacao := "Inválida"
-  fimescolha
+  FimEscolha
   
   Escreva("Classificação do produto: ", classificacao)
 
