@@ -36,9 +36,9 @@ Inicio
   LimpaTela
   
   Se(salarioReajustado = 0)Entao
-    Escreva("Func: ", nome, " Sem Reajuste")
+    Escreva("Func.: ", nome, " Prof.:", profissao, " Salario: ", salario:5:2, " Reajuste: ", salarioReajustado:5:2)
   Senao
-    Escreva("Func: ", nome,"Salario: ", salario:5:2, " Salario Reajustado: ", salarioReajustado:5:2)
+    Escreva("Func.: ", nome, " Prof.:", profissao, " Salario: ", salario:5:2, " Reajuste: ", salarioReajustado:5:2)
   FimSe
 
 Fimalgoritmo
