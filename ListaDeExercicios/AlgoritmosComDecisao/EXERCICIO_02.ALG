@@ -27,7 +27,7 @@ Inicio
   caso 8 ate 15
     classificacao := "Limpeza e Utensílios Domésticos"
   outrocaso
-    classificacao := "Inválido"
+    classificacao := "Inválida"
   fimescolha
   
   Escreva("Classificação do produto: ", classificacao)
