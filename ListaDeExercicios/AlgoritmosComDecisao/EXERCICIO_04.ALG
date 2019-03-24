@@ -17,31 +17,31 @@ Inicio
   Escreva("Informe o ano de nascimento: ")
   Leia(ano)
   
-  enquanto nome <> "X" faca
+  Enquanto nome <> "X" Faca
   
-    se(anoMaisVelho = 0)e(anoMaisNovo = 0)entao
+    Se(anoMaisVelho = 0)E(anoMaisNovo = 0)Entao
       // primeiro registro informado
       pessoaMaisVelha:= nome
       anoMaisVelho:= ano
       pessoaMaisNova:= nome
       anoMaisNovo:= ano
-    senao
+    Senao
       // a pessoa é mais velha do que a informada anteriormente
-      se(ano > anoMaisVelho)entao
+      Se(ano > anoMaisVelho)Entao
          pessoaMaisVelha:= nome
          anoMaisVelho:= ano
-      senao
-        se(ano < anoMaisNovo)entao
+      Senao
+        Se(ano < anoMaisNovo)Entao
           pessoaMaisNova:= nome
           anoMaisNovo:= ano
-        fimse
-      fimse
-    fimse
+        FimSe
+      FimSe
+    FimSe
 
     nome:= ""
     ano:= 0
     
-    limpatela // limpa a tela reescrevendo e recebendo os novos dados
+    LimpaTela // limpa a tela reescrevendo e recebendo os novos dados
     
     Escreval("Informe X para encerrar a aplicação")
     Escreva("Informe o nome da pessoa: ")
@@ -49,7 +49,7 @@ Inicio
     Escreva("Informe o ano de nascimento: ")
     Leia(ano)
     
-  fimenquanto
+  FimEnquanto
   
   Escreval("Pessoa Mais Velha: ", pessoaMaisVelha, " ano de nascimento: ", anoMaisVelho)
   Escreval("Pessoa Mais Nova: ", pessoaMaisNova, " ano de nascimento: ", anoMaisNovo)
