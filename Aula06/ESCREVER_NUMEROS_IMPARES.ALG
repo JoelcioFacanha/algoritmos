@@ -10,7 +10,11 @@ Var
 
 Inicio
 
-  num:= 0;
+  Escreval("")
+  Escreval("Numeros Impares:")
+  Escreval("")
+  
+  num:= 0
   
   Repita
   
@@ -20,6 +24,6 @@ Inicio
     
     num:= num + 1
     
-  ate num > 20
-  
+  Ate num >= 100
+
 Fimalgoritmo

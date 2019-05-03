@@ -1,5 +1,6 @@
 Algoritmo "INFORMAR_CLIMA"
-// Professor   : Antonio Carlos Nicolodi
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Professor   : Marcos Forte
 // Descrição   : Imprimir o clima a partir da temperatura
 // Autor(a)    : Joelcio Facanha
 // Data atual  : 22/03/2019

@@ -15,6 +15,15 @@ Inicio
   Repita
     Escreva(i:3)
     i:= i + 1
-  ate i > 10
+  Ate i > 10
+  
+  Escreval("")
+  
+  i:= 1
+  
+  Enquanto i <= 10 faca
+     Escreva(i:3)
+     i:= i + 1
+  FimEnquanto
 
 Fimalgoritmo
