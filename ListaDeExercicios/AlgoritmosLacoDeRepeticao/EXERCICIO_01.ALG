@@ -15,7 +15,7 @@ Inicio
   Leia(numero)
 
   Para i:= 0 Ate numero Faca
-    Escreval("numero: ", i)
+    Escreva(" ", i)
   FimPara
 
 Fimalgoritmo

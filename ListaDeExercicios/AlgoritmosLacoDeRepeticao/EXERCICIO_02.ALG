@@ -15,7 +15,7 @@ Inicio
   
   Para i:= 0 Ate numero Faca
     Se (i mod 2) = 0 Entao
-      Escreval("numero: ", i)
+      Escreva(" ", i)
     FimSe
   FimPara
 

@@ -9,18 +9,41 @@ Var
   i, numero, tabuada, aux:inteiro
   tabuadaDe:caractere
 
+  procedimento EscreverCabecalho()
+  inicio
+
+  fimprocedimento
+
 Inicio
 
   Escreval("M - Multiplicacao")
   Escreval("S - Soma")
   Escreval("D - Divisao")
   Escreval("SB - Subtracao")
-  Escreva("Informe o tipo da tabuada: ")
+  Escreva("Selecione o tipo da tabuada: ")
   Leia(tabuadaDe)
-  Escreva("Informe a tabuada: ")
+  Escreva("Qual tabuada você deseja escrever? ")
   Leia(tabuada)
-  
   aux:= tabuada
+  
+  LimpaTela
+  
+  Escolha tabuadaDe
+    caso "M"
+      Escreval("Tabuada Escolhida: Multiplicação")
+      Escreval("Numero Escolhido: ", tabuada)
+    caso "S"
+      Escreval("Tabuada Escolhida: Soma")
+      Escreval("Numero Escolhido: ", tabuada)
+    caso "D"
+      Escreval("Tabuada Escolhida: Divisão")
+      Escreval("Numero Escolhido: ", tabuada)
+    caso "SB"
+      Escreval("Tabuada Escolhida: Subtração")
+      Escreval("Numero Escolhido: ", tabuada)
+  FimEscolha
+  
+  Escreval("")
 
   Para numero:= 1 Ate 10 Faca
       Escolha tabuadaDe
